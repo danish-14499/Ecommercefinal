@@ -45,7 +45,7 @@ useEffect(()=>{
     }
   };
 
-  console.log(cart);
+  // console.log(cart);
 
   const removeFromCart = (id) => {
     const newCart = cart.filter(item => {

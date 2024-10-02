@@ -50,7 +50,7 @@ const ProductDetails = () => {
     </div>
    </section>
   )
-  console.log(product);
+  // console.log(product);
   return <div>Product Details Page</div>;
 };
 

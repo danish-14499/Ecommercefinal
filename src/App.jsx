@@ -3,20 +3,15 @@ import { BrowserRouter as Router,Route,Routes } from "react-router-dom"
 
 import Home from "./pages/Home";
 import ProductDetails from "./pages/ProductDetails";
-
 import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-
-
-
 
 export default function App() {
 
   return (
     <div className="overflow-hidden">
-      <Router
-       basename={import.meta.env.DEV ? '/' : '/Ecommerce/'} >
+      <Router >
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
